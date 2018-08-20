@@ -1,4 +1,4 @@
-# py-R-FCN
+# Deep-Traffic-Sign-Detection-on-a-Driving-Simulator
 R-FCN: Object Detection via Region-based Fully Convolutional Networks
 
 py-R-FCN now supports both joint training and alternative optimization. 
@@ -229,4 +229,4 @@ output/<experiment directory>/<dataset name>/<network snapshot name>/
 Tested on Ubuntu 14.04 with a Titan X / GTX1080 GPU and Intel Xeon CPU E5-2620 v2 @ 2.10GHz 
 
 py-faster-rcnn code can also work properly, but I do not add any other feature(such as ResNet and OHEM).
-# Deep-Traffic-Sign-Detection-on-a-Driving-Simulator
+
