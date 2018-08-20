@@ -1,4 +1,4 @@
-# Deep-Traffic-Sign-Detection-on-a-Driving-Simulator
+# Deep Traffic Sign Detection on a Driving Simulator
 R-FCN: Object Detection via Region-based Fully Convolutional Networks
 
 py-R-FCN now supports both joint training and alternative optimization. 
