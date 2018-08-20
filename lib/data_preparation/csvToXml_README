@@ -1,0 +1,28 @@
+###############################################
+                PURPOSE
+###############################################
+
+convert the old labels format in .csv to the new neede format in .xml files
+
+###############################################
+                USAGE
+###############################################
+
+./csvToXml.py [path]
+
+path - the path to a directory, e.g "images"
+when images containes the subdirectories 00000 , 00001 , ...
+e.g subdirectory 00000 contains imgaes 00000_00000.ppm , 00000_00001.ppm , ...
+and a .csv file which containes the labels for the images in this subdirectory,
+called "GT-00000.csv" (00000 = subdirectory's name)
+
+###############################################
+                OUTPUT
+###############################################
+
+for each subdirectory, e.g 00000 , there will be created a directory, in the 
+current path, named "00000_xml_files".
+
+for each image in this subdirectory, e.g 00000_00000.ppm , there will be created
+a file 00000_00000.xml , which contains the leabel information for this image ,
+in the directory 00000_xml_files
